@@ -11,6 +11,8 @@ import SecuritySettings from "./pages/SecuritySettings";
 import SettingProfile from "./pages/SettingProfile";
 import Billing from "./pages/Billing";
 import NewShipMents from "./pages/NewShipMents";
+import Services from "./pages/Service";
+import About from "./pages/About";
 
 const appRouter = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const appRouter = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path : "/services",
+    element : <Services />
+  },
+  {
+    path : "/about",
+    element : <About />
   },
   {
     path: "/dashboard",

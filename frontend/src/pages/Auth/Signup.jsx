@@ -3,6 +3,7 @@ import AuthNavBar from "./AuthNavBar";
 import { Link } from "react-router-dom";
 
 const Signup = () => {
+  
   return (
     <div className="">
       <AuthNavBar />

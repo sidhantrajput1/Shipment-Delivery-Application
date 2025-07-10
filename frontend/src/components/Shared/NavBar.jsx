@@ -16,15 +16,19 @@ const NavBar = () => {
         </div>
 
         <ul className="hidden md:flex gap-10 text-gray-700">
+         
           <li>
-            <a href="#Home">Home</a>
+            <Link to="/">Home</Link>
           </li>
+
           <li>
-            <a href="#about">About</a>
+            <Link to="/about">About</Link>
           </li>
+
           <li>
-            <a href="#service">Service</a>
+            <Link to="/services">Service</Link>
           </li>
+
         </ul>
 
         <ul className="hidden md:flex gap-8 text-gray-700">
